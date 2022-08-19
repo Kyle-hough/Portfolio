@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/contactStyle.css">
+    <script src="https://kit.fontawesome.com/40777449b6.js" crossorigin="anonymous"></script>
+
+    <title>Kyle Hough</title>
+</head>
+<body>
+    <div class="stars"><img src="/public/images/Background/stars.png" alt=""class="stars"></div>
+    <div class="twinkling"><img src="/public/images/Background/twinkling.png" alt=""class="twinkling"></div>
+    <div class="clouds"><img src="/public/images/Background/clouds.png" alt="" class="clouds"></div>
+    <div class="container ">
+        <a href="#" class="gotop"><i class="fas fa-arrow-up"></i></a>
+        <div class="navbar">
+            <ul class="navbar-nav">
+            </ul>
+        </div>
+        <div class="header">
+            <nav class="link">
+                <a href="#About">About</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Resume">Resume</a>
+                <a href="#Contact">Contact Me</a>
+                <div class="animation start-home"></div>
+            </nav>
+            <div class="about center" id="About">
+                <div class="photo">
+                    <img src="./public/images/HeadShot.jpg" alt="TBP" class="headshot">
+                </div>
+                <div class="name">
+                    <h1>Kyle Hough</h1>
+                    <div class="typing">
+                        <p>I'm a <span class="auto-type"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="description center">
+                <p>Hello my name is Kyle Hough and I am a receent coding bootcamp gradutate with a passion for delevoping application across a full-stack. I graduated in 2019 from University of La Verne with a bachelor's of Science in Kinesiology. After graduating in 2019 I continued my education at Mt. Sac. In 2021 I moved to Las Cruces, NM where I attended Coding Dojo and graduated from the program in 2022. I am currently looking for a job as a full-stack developer.</p>
+            </div>
+        </div>
+        <div class="project" id="Projects">
+            <h1>Some of my projects</h1>
+            <div class="row center">
+                <div class="example">
+                    <h3>Mountain Bike Reviews</h3>
+                    <a href="https://github.com/Kyle-hough/project">GitHub</a>
+                    <div class="slidershow middle">
+                        <div class="slides">
+                            <input type="radio" name="r" id="r1" checked>
+                            <input type="radio" name="r" id="r2">
+                            <input type="radio" name="r" id="r3">
+                            <div class="slide s1">
+                                <img src="./public/images/How_to_LOL/1.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide">
+                                <img src="./public/images/MTB_reviews/2.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide">
+                                <img src="./public/images/MTB_reviews/3.JPG" alt=""class="slideimages">
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <label for="r1" class="bar"></label>
+                            <label for="r2" class="bar"></label>
+                            <label for="r3" class="bar"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h3>Team manager</h3>
+                    <a href="https://github.com/Kyle-hough/Team_Manager">GitHub</a>
+                    <div class="slidershow middle">
+                        <div class="slides">
+                            <input type="radio" name="r" id="r4" checked>
+                            <input type="radio" name="r" id="r5">
+                            <input type="radio" name="r" id="r6">
+                            <div class="slide s2">
+                                <img src="./public/images/Team_Manager/1.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide">
+                                <img src="./public/images/Team_Manager/2.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide">
+                                <img src="./public/images/Team_Manager/3.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="navigation">
+                                <label for="r4" class="bar"></label>
+                                <label for="r5" class="bar"></label>
+                                <label for="r6" class="bar"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="example">
+                    <h3>How to LOL</h3>
+                    <a href="https://github.com/Kyle-hough/Mern-Project">GitHub</a>
+                    <div class="slidershow middle">
+                        <div class="slides">
+                            <input type="radio" name="r" id="r7" checked>
+                            <input type="radio" name="r" id="r8">
+                            <input type="radio" name="r" id="r9">
+                            <div class="slide s3">
+                                <img src="./public/images/How_to_LOL/1.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide">
+                                <img src="./public/images/How_to_LOL/2.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="slide ">
+                                <img src="./public/images/How_to_LOL/3.JPG" alt="" class="slideimages">
+                            </div>
+                            <div class="navigation">
+                                <label for="r7" class="bar"></label>
+                                <label for="r8" class="bar"></label>
+                                <label for="r9" class="bar"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume" id="Resume">
+            <h1>My Resume</h1>
+            <div> 
+                <div class="resume"> 
+                    <img src="./public/images/Resume/Resume.jpg" alt="" class="">
+                </div>
+                <button class="download">
+                    <a href="./public/images/Resume/Resume.pdf" download class="download__text">
+                        Download
+                        <ion-icon name="cloud-download-outline" class="download__icon"></ion-icon>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="contact" id="Contact">
+            <div class="contact-form">
+                <h1>Contact <span>Me</span></h1>
+                <p>Please feel free to contact me by email. <br>
+                    Email: Kyle.hough05@gmail.com
+                </p>
+                <form action="https://formsubmit.co/kyle.hough05@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="message" placeholder="Your Message" required>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Resident Software Engineer", "Coding Bootcamp Graduate", "College Graduate"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+</html>
